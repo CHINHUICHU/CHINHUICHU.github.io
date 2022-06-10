@@ -1,0 +1,99 @@
+.main-header,
+.main-info,
+.main-nav,
+.welcome-msg,
+.section-title,
+.row-1,
+.row-2,
+.box,
+.botton,
+.call-to-action{
+	display: flex;
+}
+
+
+.welcome-msg,
+.section-title,
+.row-1,
+.row-2,
+.box,
+.botton,
+.call-to-action{
+	justify-content: center;
+}
+.main-header,
+.main-nav,
+.welcome-msg,
+.section-title,
+.call-to-action{
+	align-items: center;
+}
+
+.main-header,
+.main-nav,
+{
+  background-color: lightgrey;
+}
+
+
+.main-header{
+	justify-content: space-between;
+}
+
+.name {
+	font-size: 1em;
+	margin: 10px;
+}
+
+.main-logo{
+	max-width: 5%;
+}
+.main-nav {
+	margin-top: 5px;
+	list-style-type: none;
+}
+
+.name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: blue;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+.welcome-msg{
+	background-color: lightblue;
+	margin-top: 0;
+	height: 130px;
+}
+
+.box{
+	background-color: gray;
+	margin: 10px;
+	width: 300px;
+	height: 175px;
+}
+
+.call-to-action{
+	margin-top: 30px;
+	background-color: lightblue;
+	height: 30px;
+	width: 120px;
+}
+@media (min-width: 1200px){
+	.box{
+		width: 600px;
+	}
+}
+
+
